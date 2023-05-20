@@ -1,0 +1,84 @@
+body {
+	color: #000;
+	background-color: #fff;
+	background-image: url("img/Fundinho.gif");
+	background-repeat: repeat-x;
+	margin-top: 10px;
+	line-height: 18px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+p a:link {
+	color: #019267;
+	font-weight: bold;
+}
+p a:visited{
+	color: #00c897;
+	font-weight: bold;
+}
+p a:hover{
+	color: #ffd365;
+	font-weight: bold;
+}
+h1 {
+	font-size: 36px;
+	color: #468966;
+	border-bottom: solid medium #019267;
+	line-height: 36px;
+}
+h2 {
+	font-size: 36px;
+	color: #468966;
+	font-style: italic;
+	text-align: right;
+}
+h3 {
+	font-size: 20px;
+	color: #000;
+	background-color: #ffd365;
+}
+#estrutura{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu {
+	background-image: url("img/Loguinho.png");
+	background-repeat: no-repeat;
+	background-position-x: 20px;
+	background-position-y: 60px;
+	padding-top: 160px;
+	padding-bottom: 5px;
+	padding-left: 190px;  
+}
+#menu p a:visited{
+	font-weight: bold;
+	color:#fff;
+	background-color: #019267;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu p a:hover{
+	font-weight: bold;
+	color:#000;
+	background-color: #00c897;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu p a:link{
+	font-weight: bold;
+	color:#fff;
+	background-color: #ffd365;
+	padding: 5px;
+	text-decoration: none;
+}
+img {
+	margin: 10px;
+	padding:  10px;
+	border: solid 1px #468966;
+}
+.caixa_texto {
+	text-align: justify;
+	text-indent: 25px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+<hr>
+<form action ="obrigado.html" method="POST">
+	<fieldset>
+	<legend>Dados de Login</legend>
+	<label>Nome: </label> <input type="text" name="nome" required><br><br>
+	<label>Senha: </label> <input type="password" name="senha">
+	</fieldset><br><br>
+	<fieldset>
+		<legend>Dados Pessoais: </legend>
+		<label>Endereço: </label> <input type="text" name="endereco" size="50" maxlength="40"><br><br>
+		<input type="radio" name="sexo"> <label>Masculino</label>	
+		<input type="radio" name="sexo"> <label>Feminino</label> <br><br>
+		Qual Henry Cavill é o que você mais gosta?:<br>
+		<input type="checkbox" name="teseu"><label>Henry Teseu</label>
+		<input type="checkbox" name="quime"><label>Henry Quimera</label>
+		<input type="checkbox" name="satir"><label>Henry Sátiro</label>
+		<input type="checkbox" name="curupira"><label>Henry Curupira</label>
+		<input type="checkbox" name="wer" checked><label>Wersington é um gostoso</label>
+	</fieldset><br><br>
+	<button><img src="formulario/enviar.gif" height="100" width="100"></button><input type="reset" value="Limpar">
+
+</form>
+
+</body>
+</html>
